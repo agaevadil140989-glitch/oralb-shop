@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Oral-B Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <img src="images/logo.png" class="logo" alt="Oral-B">
+    <nav>
+        <a href="index.html">Магазин</a>
+        <a href="cart.html">Корзина (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+
+<h2>Наши товары</h2>
+
+<section class="products">
+
+    <div class="product">
+        <img src="images/toothbrush.jpg">
+        <h3>Зубная щётка Oral-B</h3>
+        <p><strong>150 AZN</strong></p>
+        <button onclick="addToCart('Зубная щётка Oral-B', 150)">Добавить</button>
+    </div>
+
+    <div class="product">
+        <img src="images/electric.jpg">
+        <h3>Электрическая щётка Oral-B</h3>
+        <p><strong>450 AZN</strong></p>
+        <button onclick="addToCart('Электрическая щётка Oral-B', 450)">Добавить</button>
+    </div>
+
+    <div class="product">
+        <img src="images/toothpaste.jpg">
+        <h3>Зубная паста Oral-B</h3>
+        <p><strong>50 AZN</strong></p>
+        <button onclick="addToCart('Зубная паста Oral-B', 50)">Добавить</button>
+    </div>
+
+    <div class="product">
+        <img src="images/heads.jpg">
+        <h3>Насадки Oral-B (4 шт)</h3>
+        <p><strong>120 AZN</strong></p>
+        <button onclick="addToCart('Насадки Oral-B', 120)">Добавить</button>
+    </div>
+
+    <div class="product">
+        <img src="images/mouthwash.jpg">
+        <h3>Ополаскиватель Oral-B</h3>
+        <p><strong>60 AZN</strong></p>
+        <button onclick="addToCart('Ополаскиватель Oral-B', 60)">Добавить</button>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
