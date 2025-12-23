@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>🛒 Ваша корзина</h2>
+
+<ul id="cart-items"></ul>
+
+<h3>Итого: <span id="total">0</span> AZN</h3>
+
+<h2>📦 Оформление заказа</h2>
+
+<form class="order-form" onsubmit="submitOrder(event)">
+    <input type="text" placeholder="Имя" required>
+    <input type="tel" placeholder="Телефон" required>
+    <input type="text" placeholder="Адрес доставки" required>
+    <button type="submit">Оформить заказ</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
